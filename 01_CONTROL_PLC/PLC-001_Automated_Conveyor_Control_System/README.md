@@ -53,3 +53,23 @@ GitHub is used as the **documentation and portfolio showcase** for this project.
 ## Scope Limitation
 
 This project does not claim physical PLC commissioning, field wiring, plant operation, or measured field performance.
+
+## Software Stack
+
+### Core Stack
+| Layer | Software | Role |
+|---|---|---|
+| PLC Engineering | **CODESYS Development System** | IEC 61131-3 PLC programming, state machine, timers, counters, and logic development |
+| PLC Runtime / Simulation | **CODESYS Control Win SL (demo runtime)** | Execute and test the PLC application on the development PC |
+| Programming | **Structured Text (IEC 61131-3)** | Primary PLC implementation language |
+| Process Simulation | **CODESYS-based simulation / virtual I/O** | Simulate sensors, actuators, and conveyor process behavior without hardware |
+| Test / Analysis | **Python (optional)** | Automated test-data processing, result analysis, and plots when useful |
+| Engineering Diagrams | **diagrams.net (draw.io)** | System architecture, sequence/state diagrams, and engineering drawings |
+| Version Control | **Git** | Local version control for project development |
+| Documentation / Showcase | **GitHub** | Curated engineering documentation and portfolio evidence |
+
+### Optional Visualization
+**Factory I/O** may be used when a 3D conveyor simulation adds meaningful evidence. Its current official offering provides a 30-day full-featured trial; continued use requires a paid edition. Therefore it is **optional**, not a dependency of the baseline project. citeturn461666search0turn461666search6
+
+### Free-First Strategy
+The baseline project should remain executable without purchasing Factory I/O. CODESYS Development System is available as a free download, and the installation includes a demo version of the CODESYS Control Win SL SoftPLC. The demo runtime has a 2-hour runtime limitation without the appropriate license, which is sufficient for short development/testing sessions. citeturn461666search1turn461666search13
