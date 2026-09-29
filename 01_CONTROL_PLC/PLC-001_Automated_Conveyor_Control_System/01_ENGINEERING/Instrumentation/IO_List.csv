@@ -1,0 +1,7 @@
+Tag,Type,Description,Normal_State,Fail_Safe,Notes
+PB_START,DI,Operator Start command,0,0,Momentary input
+PB_STOP,DI,Operator Stop command,1,1,Normally closed concept represented logically
+E_STOP,DI,Emergency Stop healthy,1,0,Must be healthy to run
+S_PRODUCT,DI,Product detected,0,0,Virtual sensor in simulation
+MOTOR_RUN,DO,Conveyor motor run command,0,0,Simulated actuator
+ALARM_FAULT,DO,Fault alarm output,0,0,For HMI/simulation
