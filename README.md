@@ -122,20 +122,20 @@ Industrial networking, data acquisition, equipment analytics, and OT communicati
 Each project is developed using a practical engineering workflow:
 
 ```text
-Problem Definition
+ Problem Definition
         ↓
-Requirements
+   Requirements
         ↓
-Engineering Design
+ Engineering Design
         ↓
-Implementation
+  Implementation
         ↓
-Simulation
+    Simulation
         ↓
-Testing
+     Testing
         ↓
-Troubleshooting
+ Troubleshooting
         ↓
-Results
+     Results
         ↓
-Documentation
+  Documentation
