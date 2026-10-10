@@ -1,7 +1,6 @@
 name: Project task
 description: Track a defined engineering or documentation task
 title: "[Project NN] "
-labels: ["portfolio-task"]
 body:
   - type: input
     id: project
