@@ -1,0 +1,3 @@
+risk_id,risk,cause,effect,simulation_mitigation,residual_limit,status
+R-001,Unexpected restart after fault,Reset logic undefined,Unintended simulated motion,Separate fault reset from start,Does not validate machine safety,OPEN
+R-002,Simulation mistaken for safety validation,Overstated project claims,Unsafe transfer to real plant,Label conceptual functions clearly,Requires qualified validation,OPEN

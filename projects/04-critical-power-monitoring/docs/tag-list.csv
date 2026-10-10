@@ -1,0 +1,6 @@
+tag,description,asset,data_type,normal_state,alarm_condition,source,unit,simulation_only,status
+PWR.Utility.Available,Utility source available,Utility incomer,Boolean,TRUE,FALSE,Synthetic event model,-,YES,PLANNED
+PWR.Generator.Running,Generator running feedback,Generator,Boolean,FALSE while standby,Command-feedback mismatch,Synthetic event model,-,YES,PLANNED
+PWR.ATS.Position,ATS source position,ATS,Enum,UTILITY,Unknown/invalid position,Synthetic event model,-,YES,PLANNED
+PWR.UPS.LoadPercent,UPS output load,UPS,Numeric,TBD,Above configured threshold,Synthetic event model,%,YES,PLANNED
+PWR.Load.Total_kW,Monitored load,Load summary,Numeric,TBD,Above configured threshold,Synthetic event model,kW,YES,PLANNED

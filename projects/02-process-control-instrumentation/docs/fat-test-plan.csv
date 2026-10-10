@@ -1,0 +1,7 @@
+test_id,test_description,preconditions,test_steps,expected_result,actual_result,status,evidence
+TC-001,Normal fill cycle,Signals valid,Start Auto and observe level,Fill stops at target/hysteresis,Not run,NOT RUN,evidence/
+TC-002,Manual/Auto change,System stopped,Change mode,Transition follows permissives,Not run,NOT RUN,evidence/
+TC-003,High level response,Auto mode active,Raise simulated level,Alarm and control response match matrix,Not run,NOT RUN,evidence/
+TC-004,High pressure response,Pressure signal valid,Raise simulated pressure,Alarm and documented action occur,Not run,NOT RUN,evidence/
+TC-005,Duty pump failure,Duty pump selected,Remove simulated run feedback,Fault reported and standby logic follows permissives,Not run,NOT RUN,evidence/
+TC-006,Analog failure,Simulation running,Force input out of range,Bad-signal status and fallback are visible,Not run,NOT RUN,evidence/

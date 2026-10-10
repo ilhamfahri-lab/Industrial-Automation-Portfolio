@@ -1,0 +1,48 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+.cache/
+temp/
+tmp/
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+secrets.*
+credentials.*
+
+# Local database data and generated exports
+*.db
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+exports/raw-data/
+rendered-output/
+factory-sim-cache/

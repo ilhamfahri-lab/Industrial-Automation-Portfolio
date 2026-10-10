@@ -1,0 +1,3 @@
+interlock_id,initiating_condition,affected_equipment,required_action,reset_condition,test_id,status,notes
+IL-001,Jam detected,Affected conveyor/upstream feed,Stop sequence and latch alarm,Jam cleared and operator reset,TC-003,NOT TESTED,Simulation only
+IL-002,Motor command-feedback mismatch,Related conveyor,Raise alarm and enter fault state,Mismatch cleared and reset accepted,TC-004,NOT TESTED,Timeout TBD

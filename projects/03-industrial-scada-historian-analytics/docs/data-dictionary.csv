@@ -1,0 +1,5 @@
+tag_path,asset,description,data_type,unit,source,update_rate,historize,quality_rule,status
+Line01.Conveyor01.Running,Conveyor01,Conveyor running state,Boolean,-,Project 01 simulation or labeled synthetic source,TBD,Yes,Count only when quality is good,PLANNED
+Line01.Conveyor01.Jam,Conveyor01,Jam sensor state,Boolean,-,Project 01 simulation or labeled synthetic source,Event-based,Yes,Record state transitions,PLANNED
+Line01.Production.Count,Line01,Accepted units,Integer,units,Simulation counter,Event/change-based,Yes,Document reset behavior,PLANNED
+Line01.Downtime.Reason,Line01,Current/last downtime reason,String/enum,-,PLC/SCADA event model,Event-based,Yes,Use controlled reason codes,PLANNED

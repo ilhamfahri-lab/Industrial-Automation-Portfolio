@@ -1,0 +1,6 @@
+tag,service,signal_type,range_or_states,engineering_unit,plc_tag,alarm_or_trip_use,test_note,status
+LT-101,Tank level,Analog input,4-20 mA range TBD,%,AI_Level,High/low level alarms,Document scaling and sensor failure response,PLANNED
+PT-101,Discharge pressure,Analog input,4-20 mA range TBD,bar,AI_Pressure,High pressure alarm,Document scaling and signal-quality checks,PLANNED
+P-101,Duty pump,Digital command/feedback,Command and feedback,-,Pump1_*,Run/fail feedback,Define feedback timeout,PLANNED
+P-102,Standby pump,Digital command/feedback,Command and feedback,-,Pump2_*,Failover simulation,Transfer only if permissives are valid,PLANNED
+XV-101,Inlet valve,Digital command/feedback,Open/closed,-,Valve_*,Fill permissive,Define feedback mismatch response,PLANNED

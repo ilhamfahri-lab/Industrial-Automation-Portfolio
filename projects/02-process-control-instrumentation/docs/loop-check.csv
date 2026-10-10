@@ -1,0 +1,2 @@
+loop_id,instrument_tag,range,signal_check,scaling_check,alarm_check,result,evidence,notes
+LC-001,LT-101,TBD,Not performed,Not performed,Not performed,NOT RUN,evidence/,Simulation exercise only; not field commissioning

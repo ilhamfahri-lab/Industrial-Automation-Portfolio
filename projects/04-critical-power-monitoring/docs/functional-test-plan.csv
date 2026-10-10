@@ -1,0 +1,5 @@
+test_id,scenario,preconditions,steps,expected_result,actual_result,status,evidence
+TC-001,Normal utility state,Synthetic data source ready,Start event playback,Utility ATS UPS and load states display consistently,Not run,NOT RUN,evidence/
+TC-002,Utility loss/transition,Normal state displayed,Run utility-loss sequence,Event order and alarm match scenario model,Not run,NOT RUN,evidence/
+TC-003,High UPS load,UPS value normal,Raise synthetic load above threshold,Correct alarm appears and clears as documented,Not run,NOT RUN,evidence/
+TC-004,Generator fail-to-start,Utility-loss scenario active,Inject fail-to-start event,Alarm is clear and state remains unavailable,Not run,NOT RUN,evidence/

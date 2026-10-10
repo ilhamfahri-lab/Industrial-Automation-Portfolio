@@ -1,0 +1,4 @@
+cause_id,cause,effect_id,affected_state_or_output,effect,delay,reset,test_id,status
+CE-001,Tank high-high level,EF-001,Filling pump/valve,Execute documented stop/inhibit action,TBD,Reset after condition is clear,TC-003,NOT TESTED
+CE-002,Duty pump fail-to-start,EF-002,Duty/standby sequence,Alarm and standby attempt when permitted,TBD,Fault cleared,TC-005,NOT TESTED
+CE-003,Analog input out of range,EF-003,Process control state,Show bad signal and defined fallback,TBD,Signal healthy,TC-006,NOT TESTED

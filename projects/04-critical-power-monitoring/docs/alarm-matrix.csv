@@ -1,0 +1,4 @@
+alarm_id,condition,severity,message,operator_action_reference,latching,reset_condition,test_id,status
+ALM-001,Utility unavailable,Critical,Utility source unavailable,Follow approved site procedure; simulation has no operating authority,TBD,Source stable and acknowledged,TC-002,NOT TESTED
+ALM-002,Generator fail-to-start,Critical,Standby generator unavailable,Escalate per approved procedure; simulation only,TBD,Condition cleared and authorized reset,TC-004,NOT TESTED
+ALM-003,UPS load above threshold,High,UPS output load high,Review simulated trend and assumptions,TBD,Load below reset threshold,TC-003,NOT TESTED

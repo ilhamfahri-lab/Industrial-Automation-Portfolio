@@ -1,0 +1,6 @@
+test_id,scenario,preconditions,action,expected_result,actual_result,status,evidence
+TC-001,Normal startup,All equipment healthy,Issue start command,Equipment starts in documented order,Not run,NOT RUN,evidence/
+TC-002,Orderly shutdown,System running,Issue stop command,Defined stop completes,Not run,NOT RUN,evidence/
+TC-003,Conveyor jam,System running,Activate jam sensor,Affected sequence stops and alarm is visible,Not run,NOT RUN,evidence/
+TC-004,Feedback mismatch,Equipment commanded on,Alter simulated feedback,Fault and alarm occur after defined timeout,Not run,NOT RUN,evidence/
+TC-005,Reset while fault persists,Fault active,Request reset,Reset rejected or fault remains active,Not run,NOT RUN,evidence/

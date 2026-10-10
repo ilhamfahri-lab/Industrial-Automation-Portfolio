@@ -1,0 +1,6 @@
+tag,description,signal_type,data_type,address_or_mapping,normal_state_or_range,engineering_unit,source_or_destination,fail_response,notes
+DI-001,Emergency-stop simulation status,Digital input,BOOL,TBD,Healthy=TRUE,-,Simulation input,Stop outputs per simulation logic,Not safety-rated
+DI-002,Conveyor motor feedback,Digital input,BOOL,TBD,Running=TRUE,-,Motor simulation,Alarm on command/feedback mismatch,TBD
+DI-003,Jam sensor,Digital input,BOOL,TBD,Clear=FALSE,-,Factory I/O,Stop affected sequence and latch fault,TBD
+DO-001,Conveyor motor command,Digital output,BOOL,TBD,OFF at startup,-,Actuator,OFF on defined stop/fault conditions,TBD
+DO-002,Diverter command,Digital output,BOOL,TBD,Default position,-,Actuator,Move only when sequence permits,TBD

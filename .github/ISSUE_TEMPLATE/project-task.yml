@@ -1,0 +1,25 @@
+name: Project task
+description: Track a defined engineering or documentation task
+title: "[Project NN] "
+labels: ["portfolio-task"]
+body:
+  - type: input
+    id: project
+    attributes:
+      label: Project ID
+      placeholder: "01-05"
+    validations:
+      required: true
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: What evidence proves completion?
+    validations:
+      required: true

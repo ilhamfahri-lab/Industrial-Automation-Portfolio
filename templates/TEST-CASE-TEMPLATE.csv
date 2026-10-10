@@ -1,0 +1,2 @@
+test_id,test_name,requirement_id,preconditions,steps,expected_result,actual_result,status,evidence_path,date,notes
+TC-001,Placeholder,REQ-001,Replace,Replace,Describe expected behavior,Not run,NOT RUN,evidence/,YYYY-MM-DD,Template only; not a real test

@@ -1,0 +1,4 @@
+kpi_id,kpi_name,definition,numerator,denominator,time_window,source,exclusions,validation_method,status
+KPI-001,Availability,Scheduled time minus classified downtime divided by scheduled time,Scheduled seconds minus eligible downtime,Scheduled seconds,Shift/day,DowntimeEvents and Schedule,Exclude planned maintenance only if modeled,Reconcile with a sample timeline,PLANNED
+KPI-002,Throughput,Accepted units per time window,Accepted count delta,Elapsed production hours,Shift/day,ProductionCounter,Document reset and bad-quality periods,Compare with generated test dataset,PLANNED
+KPI-003,Downtime by reason,Duration grouped by reason code,Duration by reason,Not applicable,Shift/week,DowntimeEvents,Retain unknown-reason bucket,Category total equals eligible downtime,PLANNED

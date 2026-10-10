@@ -1,0 +1,4 @@
+alarm_id,tag,condition,priority,operator_message,required_response,latching,reset_condition,test_id,status
+ALM-001,LT-101,Level above high limit,High,Tank level high,Stop/inhibit filling as defined in control philosophy,TBD,Level returned to reset band,TC-003,NOT TESTED
+ALM-002,PT-101,Pressure above threshold,High,Discharge pressure high,Apply documented process response,TBD,Pressure returned to reset band,TC-004,NOT TESTED
+ALM-003,P-101,Command-feedback mismatch,Medium,Duty pump failed to prove,Alarm and standby response only if permissives valid,Planned,Fault cleared and reset accepted,TC-005,NOT TESTED

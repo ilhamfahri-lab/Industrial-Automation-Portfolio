@@ -1,0 +1,6 @@
+test_id,scenario,preconditions,steps,expected_result,actual_result,status,evidence
+TC-001,Normal permitted communication,Lab topology configured,Verify required HMI/PLC path,Required function works and is documented,Not run,NOT RUN,evidence/
+TC-002,Incorrect IP/subnet,Known-good state saved,Apply a controlled address error in isolated lab,Procedure identifies mismatch,Not run,NOT RUN,evidence/
+TC-003,Blocked approved service,Known-good state saved,Disable one lab rule/link,Symptom and root cause are recorded,Not run,NOT RUN,evidence/
+TC-004,Traffic review,Authorized lab capture available,Inspect and document observed flow,Conclusions match capture scope,Not run,NOT RUN,evidence/
+TC-005,Recovery,Known-good configuration saved,Restore baseline,Required path recovers and steps are repeatable,Not run,NOT RUN,evidence/

@@ -1,0 +1,4 @@
+source,destination,protocol_or_service,purpose,direction,business_justification,allowed_in_lab,verification_method,status
+HMI-01,PLC-01,Protocol TBD,Operator commands and process values,As required,Required for local control,TBD,Test normal lab traffic,PLANNED
+SCADA-01,PLC-01,OPC/driver path TBD,Data acquisition,Initiated from supervisory side where feasible,Required for monitoring,TBD,Check driver logs and tags,PLANNED
+ENG-WS-01,PLC-01,Vendor engineering protocol,Configuration and diagnostics,Temporary/controlled,Authorized engineering only,TBD,Test only in isolated lab,PLANNED

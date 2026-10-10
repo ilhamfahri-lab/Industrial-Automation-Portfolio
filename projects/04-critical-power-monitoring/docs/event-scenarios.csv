@@ -1,0 +1,5 @@
+scenario_id,event_sequence,expected_monitoring_state,expected_alarm,recovery_condition,test_id,status,notes
+EVT-001,Utility available,Normal source indicated,None,Not applicable,TC-001,NOT TESTED,Conceptual event model
+EVT-002,Utility lost then generator starts and ATS changes state,Sequence and timestamps visible,Utility loss/transition alarm,Utility restored and state stable,TC-002,NOT TESTED,No real ATS validation
+EVT-003,UPS load exceeds threshold,UPS status retained and alarm displayed,UPS load high,Load returns below reset threshold,TC-003,NOT TESTED,Synthetic value
+EVT-004,Generator fails to prove,Generator unavailable,Generator fail-to-start,Fault cleared and acknowledged,TC-004,NOT TESTED,No physical generator test

@@ -1,0 +1,5 @@
+device_name,zone,interface,ip_address,subnet,vlan,role,management_method,allowed_communications,status
+PLC-01,Control cell,Ethernet,TBD,TBD,TBD,Simulated controller,Local/authorized management only,HMI and approved engineering paths only,PLANNED
+HMI-01,Operator cell,Ethernet,TBD,TBD,TBD,Operator interface,Authorized local access,Required local control/data paths,PLANNED
+SCADA-01,Supervisory zone,Ethernet,TBD,TBD,TBD,Supervisory server,Restricted administration,Approved PLC data-acquisition path,PLANNED
+ENG-WS-01,Engineering zone,Ethernet,TBD,TBD,TBD,Engineering workstation,Controlled management,Temporary documented engineering access,PLANNED
