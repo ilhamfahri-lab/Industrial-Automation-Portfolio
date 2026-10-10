@@ -1,0 +1,2 @@
+issue_id,date_found,project_area,severity,summary,reproduction_steps,root_cause,corrective_action,status,evidence_path
+ISS-001,YYYY-MM-DD,PLC/HMI/SCADA/Network,Medium,Placeholder - replace,Describe repeatable steps,TBD,TBD,OPEN,evidence/
